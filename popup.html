@@ -13,25 +13,46 @@
         <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
       </svg>
       <h1>Tab Title Picker</h1>
+      <button id="darkModeToggle" class="icon-btn" title="Toggle Dark Mode">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
     </div>
     
     <button id="getTitle" class="btn">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
       </svg>
-      Get Tab Title
+      Get Tab Info
     </button>
     
     <div id="result" class="result hidden">
-      <div class="result-label">Current Tab Title:</div>
+      <div class="result-label">Current Tab Info:</div>
       <div id="titleText" class="title-text"></div>
-      <button id="copyBtn" class="copy-btn">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
-          <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"></path>
-        </svg>
-        Copy
-      </button>
+      <div class="button-group">
+        <button id="copyBtn" class="copy-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+            <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"></path>
+          </svg>
+          Copy
+        </button>
+        <button id="exportBtn" class="export-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M17 8l-5-5-5 5M12 3v12"/>
+          </svg>
+          Export
+        </button>
+      </div>
+    </div>
+
+    <div id="history" class="history hidden">
+      <div class="history-header">
+        <div class="result-label">History</div>
+        <button id="clearHistory" class="clear-btn">Clear</button>
+      </div>
+      <div id="historyList" class="history-list"></div>
     </div>
   </div>
   

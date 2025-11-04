@@ -2,7 +2,7 @@
 
 A beautiful, minimal Chrome extension that lets you grab the current tab's title with one click.
 
-![Extension Preview](https://img.shields.io/badge/version-1.0.0-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+![Loom video](https://www.loom.com/share/7380821ac36f44e1bfc34ece742a9d17)
 
 ## ✨ Features
 
@@ -11,15 +11,19 @@ A beautiful, minimal Chrome extension that lets you grab the current tab's title
 - 📋 **Copy to clipboard** functionality
 - 🎯 **Minimal and fast** - no bloat
 - 🌈 **Modern design** with glassmorphism effects
-- ⌨️ Keyboard shortcut - Ctrl+Shift+T (Windows/Linux) or Cmd+Shift+T (Mac)
-- 📝 History tracking - Saves last 10 extracted tabs
-- 🌙 Dark mode - Toggle between light and dark themes
-- 💾 Export to CSV - Export your entire history
-- ⚙️ Customizable settings - Choose what info to display (Title/URL/Both)
+- ⌨️ **Keyboard shortcut** - Ctrl+Shift+T (Windows/Linux) or Cmd+Shift+T (Mac)
+- 📝 **History tracking** - Saves last 10 extracted tabs
+- 🌙 **Dark mode** - Toggle between light and dark themes
+- 💾 **Export to CSV** - Export your entire history
+- ⚙️ **Customizable settings** - Choose what info to display (Title/URL/Both)
 
 ## 📸 Screenshots
 
-[Add your screenshots here after recording]
+## 📸 Screenshots
+
+![Popup View](./assets/image1.png)
+![Dark Mode](./assets/image.png)
+
 
 ## 🚀 Installation
 
@@ -27,8 +31,8 @@ A beautiful, minimal Chrome extension that lets you grab the current tab's title
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/tab-title-picker-extension.git
-   cd tab-title-picker-extension
+   git clone https://github.com/Ushnika09/Chrome-extension.git
+   cd Chrome-extension
    ```
 
 2. **Load in Chrome**
@@ -41,16 +45,18 @@ A beautiful, minimal Chrome extension that lets you grab the current tab's title
 ## 📁 Project Structure
 
 ```
-tab-title-picker-extension/
-├── manifest.json          # Extension configuration
-├── popup.html            # UI structure
-├── popup.js              # Main functionality
-├── styles.css            # Styling and animations
-├── icons/                # Extension icons
-│   ├── icon16.png
-│   ├── icon48.png
-│   └── icon128.png
-└── README.md
+chrome-extension/
+│
+├── manifest.json           # Extension configuration & permissions
+├── popup.html             # Main popup UI
+├── popup.js               # Main popup functionality
+├── styles.css             # All styles (popup + dark mode)
+├── README.md              # Documentation
+│
+└── icons/                 # Extension icons
+    ├── icons-16.png         # 16x16 icon
+    ├── icons-48.png         # 48x48 icon
+    └── icons-128.png        # 128x128 icon
 ```
 
 ## 💻 How It Works
@@ -112,10 +118,6 @@ No data is collected or sent anywhere. Everything happens locally.
 **My Name**
 - GitHub: [@your_username](https://github.com/Ushnika09)
 - LinkedIn: [Your Profile](https://www.linkedin.com/in/ushnika-kar-32246a36a/)
-
-## ⭐ Show Your Support
-
-Give a ⭐️ if this project helped you!
 
 ---
 

@@ -3,13 +3,22 @@
   "name": "Tab Title Picker",
   "version": "1.0.0",
   "description": "Get the current tab title with one click",
-  "permissions": ["activeTab"],
+  "permissions": ["activeTab", "storage", "scripting", "notifications"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
       "16": "icons/icons-16.png",
       "48": "icons/icons-48.png",
       "128": "icons/icons-128.png"
+    }
+  },
+  "commands": {
+    "copy-tab-info": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+G",
+        "mac": "Command+Shift+G"
+      },
+      "description": "Copy current tab title and URL"
     }
   },
   "icons": {
