@@ -11,6 +11,11 @@ A beautiful, minimal Chrome extension that lets you grab the current tab's title
 - 📋 **Copy to clipboard** functionality
 - 🎯 **Minimal and fast** - no bloat
 - 🌈 **Modern design** with glassmorphism effects
+- ⌨️ Keyboard shortcut - Ctrl+Shift+T (Windows/Linux) or Cmd+Shift+T (Mac)
+- 📝 History tracking - Saves last 10 extracted tabs
+- 🌙 Dark mode - Toggle between light and dark themes
+- 💾 Export to CSV - Export your entire history
+- ⚙️ Customizable settings - Choose what info to display (Title/URL/Both)
 
 ## 📸 Screenshots
 
